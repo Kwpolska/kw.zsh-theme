@@ -12,7 +12,7 @@ function hg_prompt_info {
     if hg root >/dev/null 2>/dev/null; then
         hg prompt --angle-brackets "\
  %{$fg_no_bold[green]%}H%{$fg[white]%}<branch>%{$reset_color%}\
-%{$fg[red]%}<status|modified|unknown><update>%{$fg[white]%}" 2>/dev/null
+%{$fg_bold[red]%}<status|modified|unknown><update>%{$fg[white]%}" 2>/dev/null
     fi
 }
 
