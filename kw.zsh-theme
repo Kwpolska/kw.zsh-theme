@@ -1,6 +1,7 @@
 local return_code="%(?.%{$fg[green]%}.%{$fg[red]%})%?%{$reset_color%}"
+host_color="%{$fg_bold[$KWZSH_HOST_COLOR]%}"
 #PROMPT='%{$fg_no_bold[red]%}[%{$fg_bold[yellow]%}%n%{$fg_no_bold[red]%}@%{$fg_bold[cyan]%}%m \
-PROMPT='%{$fg_no_bold[red]%}[%{$fg_bold[yellow]%}%n%{$fg_no_bold[red]%}@%{$KWZSH_HOST_COLOR%}%m \
+PROMPT='%{$fg_no_bold[red]%}[%{$fg_bold[yellow]%}%n%{$fg_no_bold[red]%}@%{$host_color%}%m \
 %{$fg_bold[magenta]%}%c\
 $(git_prompt_info)\
 $(hg_prompt_info)\
