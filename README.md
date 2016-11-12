@@ -5,6 +5,13 @@ Oh My Zsh theme created and used by me.
 
 See also: [todolist formatter](https://github.com/Kwpolska/todolist-formatter) which uses the same style.
 
+Host color setup
+----------------
+
+In your .zshrc, before oh-my-zsh is loaded:
+
+    KWZSH_HOST_COLOR="%{$fg_bold[cyan]%}"
+
 License
 =======
 
