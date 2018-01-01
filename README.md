@@ -15,7 +15,7 @@ In your .zshrc, before oh-my-zsh is loaded:
 License
 =======
 
-Copyright © 2014-2017, Chris Warrick.
+Copyright © 2014-2018, Chris Warrick.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
