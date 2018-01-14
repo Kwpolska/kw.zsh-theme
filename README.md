@@ -5,12 +5,25 @@ Oh My Zsh theme created and used by me.
 
 See also: [todolist formatter](https://github.com/Kwpolska/todolist-formatter) which uses the same style.
 
-Host color setup
+![Screenshot](https://github.com/Kwpolska/kw.zsh-theme/raw/master/screenshot.png)
+
+Host color setup (required)
 ----------------
 
 In your .zshrc, before oh-my-zsh is loaded:
 
-    KWZSH_HOST_COLOR="%{$fg_bold[cyan]%}"
+    KWZSH_HOST_COLOR="cyan"
+
+To use different colors for hosts, you can use an if/elif tree:
+
+    if [[ "$(uname -n)" == 'foo' ]]; then
+        KWZSH_HOST_COLOR="cyan"
+    elif [[ "$(uname -n)" == 'bar' ]]; then
+        KWZSH_HOST_COLOR="blue"
+    else
+        KWZSH_HOST_COLOR="green"
+    fi
+
 
 License
 =======
