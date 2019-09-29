@@ -8,7 +8,7 @@ See also: [todolist formatter](https://github.com/Kwpolska/todolist-formatter) w
 ![Screenshot](https://github.com/Kwpolska/kw.zsh-theme/raw/master/screenshot.png)
 
 Host color setup (required)
-----------------
+---------------------------
 
 In your .zshrc, before oh-my-zsh is loaded:
 
@@ -28,7 +28,7 @@ To use different colors for hosts, you can use an if/elif tree:
 License
 =======
 
-Copyright © 2014-2018, Chris Warrick.
+Copyright © 2014-2019, Chris Warrick.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
